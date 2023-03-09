@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3197088029BA640E003FBCEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197087F29BA640E003FBCEA /* AppDelegate.swift */; };
 		3197088229BA640E003FBCEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197088129BA640E003FBCEA /* SceneDelegate.swift */; };
-		3197088429BA640E003FBCEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197088329BA640E003FBCEA /* ViewController.swift */; };
 		3197088729BA640E003FBCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3197088529BA640E003FBCEA /* Main.storyboard */; };
 		3197088929BA640F003FBCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3197088829BA640F003FBCEA /* Assets.xcassets */; };
 		3197088C29BA640F003FBCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3197088A29BA640F003FBCEA /* LaunchScreen.storyboard */; };
+		3197089429BA6485003FBCEA /* ColorsTableVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197089329BA6485003FBCEA /* ColorsTableVc.swift */; };
+		3197089629BA649F003FBCEA /* ColorsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197089529BA649F003FBCEA /* ColorsDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3197087C29BA640E003FBCEA /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3197087F29BA640E003FBCEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3197088129BA640E003FBCEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3197088329BA640E003FBCEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3197088629BA640E003FBCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3197088829BA640F003FBCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3197088B29BA640F003FBCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3197088D29BA640F003FBCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3197089329BA6485003FBCEA /* ColorsTableVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVc.swift; sourceTree = "<group>"; };
+		3197089529BA649F003FBCEA /* ColorsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				3197087F29BA640E003FBCEA /* AppDelegate.swift */,
 				3197088129BA640E003FBCEA /* SceneDelegate.swift */,
-				3197088329BA640E003FBCEA /* ViewController.swift */,
+				3197089329BA6485003FBCEA /* ColorsTableVc.swift */,
+				3197089529BA649F003FBCEA /* ColorsDetailsVC.swift */,
 				3197088529BA640E003FBCEA /* Main.storyboard */,
 				3197088829BA640F003FBCEA /* Assets.xcassets */,
 				3197088A29BA640F003FBCEA /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3197088429BA640E003FBCEA /* ViewController.swift in Sources */,
 				3197088029BA640E003FBCEA /* AppDelegate.swift in Sources */,
+				3197089629BA649F003FBCEA /* ColorsDetailsVC.swift in Sources */,
+				3197089429BA6485003FBCEA /* ColorsTableVc.swift in Sources */,
 				3197088229BA640E003FBCEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
