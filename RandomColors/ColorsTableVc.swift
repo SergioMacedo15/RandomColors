@@ -7,26 +7,50 @@
 
 import UIKit
 
-class ColorsTableVc: UIViewController {
-
+class ColorsTableVc: UIViewController{
+    
+    var colors :[UIColor] = []
+    enum cells {
+        static let colorCell = "ColorCell"
+    }
+    enum Segue{
+        static let toDetails = "ToColorsDetailsVC"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        adddRandomColors()
     }
     
-    @IBAction func tempButtonTapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "ToColorsDetailsVC", sender: nil)
+    func adddRandomColors( ){
+        for _ in 0..<50 {
+            colors.append(UIColor.random())
+        }
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let destVC = segue.destination as! ColorsDetailsVC
+        destVC.color = sender as? UIColor
     }
-    */
+}
 
+    
+
+extension ColorsTableVc: UITableViewDelegate,UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return colors.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cells.colorCell) else {
+            return UITableViewCell()
+        }
+        
+        cell.backgroundColor = colors[indexPath.row]
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let color = colors[indexPath.row]
+        performSegue(withIdentifier: Segue.toDetails, sender: color)
+    }
 }

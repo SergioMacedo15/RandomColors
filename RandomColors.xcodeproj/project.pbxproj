@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3165E5FD29C8EB470070E2BC /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3165E5FC29C8EB470070E2BC /* UIColor+Ext.swift */; };
 		3197088029BA640E003FBCEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197087F29BA640E003FBCEA /* AppDelegate.swift */; };
 		3197088229BA640E003FBCEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197088129BA640E003FBCEA /* SceneDelegate.swift */; };
 		3197088729BA640E003FBCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3197088529BA640E003FBCEA /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3165E5FC29C8EB470070E2BC /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		3197087C29BA640E003FBCEA /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3197087F29BA640E003FBCEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3197088129BA640E003FBCEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				3197088829BA640F003FBCEA /* Assets.xcassets */,
 				3197088A29BA640F003FBCEA /* LaunchScreen.storyboard */,
 				3197088D29BA640F003FBCEA /* Info.plist */,
+				3165E5FC29C8EB470070E2BC /* UIColor+Ext.swift */,
 			);
 			path = RandomColors;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				3197088029BA640E003FBCEA /* AppDelegate.swift in Sources */,
 				3197089629BA649F003FBCEA /* ColorsDetailsVC.swift in Sources */,
+				3165E5FD29C8EB470070E2BC /* UIColor+Ext.swift in Sources */,
 				3197089429BA6485003FBCEA /* ColorsTableVc.swift in Sources */,
 				3197088229BA640E003FBCEA /* SceneDelegate.swift in Sources */,
 			);
