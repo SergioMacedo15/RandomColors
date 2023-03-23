@@ -6,4 +6,4 @@ O aplicativo gera aleatoriamente um array de 50 cores e as exibe em uma lista (T
 
 Esta ideia foi retirada de uma video aula disponivel no link abaixo:
 
-https://www.youtube.com/watch?v=CwA1VWP0Ldw - Video Aula de Sean Allen (Audio em inglês)
+https://www.youtube.com/watch?v=CwA1VWP0Ldw - Video Aula de Sean Allen (Audio em inglês) - A partir do min 4:10:00
